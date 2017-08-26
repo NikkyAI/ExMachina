@@ -1,3 +1,4 @@
+
 # Ex Machina
 
 requires python 3.6+ (64bit)
@@ -6,6 +7,7 @@ requires python 3.6+ (64bit)
 
 https://pyimgui.readthedocs.io/en/latest/reference/imgui.core.html
 
+examples: https://github.com/swistakm/pyimgui/tree/master/doc/examples
 
 ## glfw
 
