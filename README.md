@@ -1,6 +1,8 @@
 
 # Ex Machina
 
+`pip install --user -r requirements.txt`
+
 requires python 3.6+ (64bit)
 
 ## pyimgui api
