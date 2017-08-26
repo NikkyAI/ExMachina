@@ -94,7 +94,14 @@ def main():
                         item: dict = item
                         # with imgui.font(font_extra):
                         if "color" in item and "content" in item:
-                            imgui.text_colored(item["content"], *item["color"])
+                            color = item["color"]
+                            imgui.text_colored(item["content"], *color)
+                            if(imgui.is_item_hovered()):
+                                imgui.begin_tooltip()
+                                imgui.color_button(*color)
+                                imgui.same_line()
+                                imgui.text("This button is colored.")
+                                imgui.end_tooltip()
                     elif isinstance(item, str):
                         imgui.text(item)
                     imgui.same_line()
