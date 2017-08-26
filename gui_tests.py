@@ -40,7 +40,6 @@ def main():
 
         imgui.show_test_window()
 
-
         imgui.begin("Example: tooltip")
         if(imgui.button("Click me!")):
             a = a / 1.2
