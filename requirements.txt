@@ -1,0 +1,4 @@
+imgui
+pyopengl
+numpy
+glfw
